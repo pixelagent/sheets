@@ -43,23 +43,22 @@ var code = '1ciPq3VfxUv3ucttkMPzNXNR1NLKA1JrOq1tGiLg2CsI'
             };
 
           L.marker([data.longitude, data.latitude], {icon: icon})
-          .addTo(map)
-	  .bindPopup(popupContent,{closeButton: false, minWidth: 300});
-	  
-	  /*			   
+          .addTo(map)		   
           .bindPopup("<strong style='color: #84b819'>" + 
 		     data.newsroom + "</strong><br>" + 
 		     data.company + " | " + 
 		     data.city + "<br>Head: " + 
 		     data.head).openPopup();
-	   */   
-	      
+	     
+	         /*
+	  .bindPopup(popupContent,{closeButton: false, minWidth: 300});
+	  
 	// Create custom popup content
        var popupContent =  '"<strong style='color: #84b819'>" + 
        		data.newsroom + "</strong><br>" +  
 	        data.company + " | " + data.city + "<br>Head: " + 
 	        data.head';
-
+ */ 
         
       }
     },
